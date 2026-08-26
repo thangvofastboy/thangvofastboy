@@ -139,14 +139,22 @@ qua Google Drive, GitHub, S3/R2, LAN P2P hoặc server riêng. Mã hoá AES-256-
 bằng FTS5 + BM25. Mình làm luôn ba giao diện GUI, TUI và Web vì không quyết được cái nào tiện hơn.
 
 **AIGUI** · `Electron` + `TypeScript`
-Giao diện desktop dark-mode cho mấy CLI code bằng AI, terminal thật chạy bằng xterm.js, mở nhiều
-session cùng lúc.
+Giao diện desktop cho mấy CLI code bằng AI. Terminal thật chạy bằng xterm.js với node-pty, mở
+nhiều project cùng lúc và session sống qua restart. Có file tree, fuzzy search `Ctrl+P`, xem diff
+git, quản lý MCP server, đếm token và chi phí theo thời gian thực, cảnh báo khi sắp cạn context,
+chạy hai model song song để so kết quả. Đổi qua lại được giữa Claude Code và OpenCode — UI tự
+đổi theo backend nào đang chạy. Mình làm cái này vì hay mở 4-5 terminal một lúc rồi quên mất
+cái nào đang chạy gì.
 
-**DebugLog** · `Python`
-Log có cấu trúc, viết ra để agent đọc chứ không phải người đọc.
+**DebugLog** · `Python` + `PySide6`
+App desktop để phân loại lỗi. Alert lỗi bắn về qua Discord, app parse ra, gộp mấy cái trùng nhau,
+tự tìm đúng hàm gây lỗi trong source rồi đưa cả đoạn context đó cho AI phân tích — chạy model
+local hoặc gọi Anthropic / DeepSeek tuỳ cấu hình. Kết quả ghi thẳng xuống Excel để còn theo dõi.
+Sinh ra từ việc mình phát chán cảnh mỗi sáng mở kênh alert thấy hai trăm dòng lỗi giống hệt nhau.
 
 **AutoTriggerClaudeCode** · `Shell`
-Cron tự đánh thức session agent. Repo đúng 2 commit, và nó làm việc thay mình từ đó tới giờ.
+Cron tự đánh thức session agent theo lịch. Repo đúng 2 commit, và nó làm việc thay mình từ đó
+tới giờ — mình thích nhất mấy thứ kiểu này: viết một buổi, quên luôn, chạy hoài.
 
 </details>
 
@@ -196,16 +204,21 @@ tầng, tự chia luồng theo cấu hình máy, có treemap để nhìn xem dun
 của JetBrains và Android Studio — chỗ này mình đào ra vài chục GB không biết mình đang giữ.
 
 **AutoSyncNotion** · `Shell` + `Python`
-Daemon đồng bộ Notion với máy local.
+Daemon đồng bộ Notion với máy local, cấu hình bằng một file YAML rồi để nó tự chạy nền.
 
-**web-screenshot** · `JavaScript`
-Service chụp màn hình web headless.
+**web-screenshot** · `JavaScript` + Playwright
+Service chụp màn hình web headless. Đúng một file, một dependency, làm một việc.
 
 **FastboyTool** (Chrome / Firefox) · `JavaScript`
-Extension nội bộ hỗ trợ công việc, Manifest V3, làm cho cả hai trình duyệt.
+Extension Manifest V3 mình viết cho anh em trong công ty. Xoá cookie, local storage, cache và
+service worker theo từng domain; xem nhanh trang đang xin những quyền gì và quyền nào bị chặn;
+theo dõi dung lượng storage với JS heap của tab hiện tại. Bản Firefox chạy được cả trên Android.
+Về cơ bản là gom mấy thao tác mình phải lặp lại chục lần mỗi ngày trong DevTools vào một cái popup.
 
 **DialpadExportTranscript** · `Python`
-Xuất và bóc tách transcript cuộc gọi hàng loạt.
+Xuất transcript cuộc gọi từ Dialpad hàng loạt, có GUI nhỏ để chọn khoảng thời gian, và một nhánh
+gọi Qwen Audio khi bản transcript sẵn có không dùng được. Viết trong một buổi, một commit,
+tới giờ vẫn chạy.
 
 </details>
 
