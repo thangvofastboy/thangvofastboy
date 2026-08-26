@@ -26,8 +26,9 @@ Cái bot Discord để điều khiển Claude từ xa? Vì mình lười mở la
 đầy mà mình không muốn đi tìm thủ công. Cái app phủ đen bản đồ thế giới rồi bắt mình đi bộ mới
 sáng ra từng ô? Cái đó thì… mình chỉ muốn có lý do để ra khỏi nhà.
 
-Mình viết Python và TypeScript nhiều nhất, Rust khi cần chạy nhanh, Flutter với Kotlin cho
-mobile. Có một thói quen mình giữ khá chặt: app nào dính AI thì phải chạy được offline. Một
+Ban ngày mình làm backend ở Fastboy Marketing, chủ yếu PHP/Symfony cho hệ CRM nội bộ và mấy
+service quanh nó. Tối về thì mình nghịch Python, TypeScript, Rust, Flutter với Kotlin. Có một
+thói quen mình giữ khá chặt: app nào dính AI thì phải chạy được offline. Một
 phần vì hoá đơn cloud, một phần vì mình không thích phụ thuộc vào thứ có thể sập lúc 2 giờ sáng.
 Và test thì luôn có — lười thì lười, chứ không thích bị gọi dậy đi fix bug.
 
@@ -45,8 +46,9 @@ A Discord bot that drives Claude remotely? I was too lazy to open my laptop. A d
 My drive was full and I didn't feel like hunting for the junk. An app that blacks out the world
 map and makes me walk to uncover it? That one was just an excuse to go outside.
 
-Mostly Python and TypeScript, Rust when things need to be fast, Flutter and Kotlin for mobile.
-One habit I stick to: if an app touches AI, it has to work offline. Partly the cloud bill,
+By day I write backend at Fastboy Marketing, mostly PHP/Symfony on our internal CRM and the
+services around it. After hours it's Python, TypeScript, Rust, Flutter and Kotlin. One habit I
+stick to: if an app touches AI, it has to work offline. Partly the cloud bill,
 partly not wanting to depend on something that can go down at 2am. And I always write tests —
 lazy, sure, but not lazy enough to enjoy being woken up by a bug.
 
@@ -56,9 +58,10 @@ Most of my repos are private, so this page does the talking.
 
 ---
 
-## Ngôn ngữ mình viết nhiều nhất
+## Ngôn ngữ trong 17 repo cá nhân
 
-Tính tay từ 17 repo private qua GitHub API, tháng 08/2026. Mấy cái widget thống kê không đọc
+Tính tay từ 17 repo private của mình qua GitHub API, tháng 08/2026. Phần việc công ty không nằm
+trong bảng này — chỗ đó gần như toàn PHP, mình nói ở dưới. Mấy cái widget thống kê không đọc
 được repo private nên nó sẽ hiện `0` — thà tự cộng còn hơn.
 
 ```text
@@ -74,11 +77,11 @@ JS/CSS/HTML/Shell/C++ ░░░░░░░░░░░░░░░░░░░�
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,typescript,dart,kotlin,rust,bash&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=php,python,typescript,dart,kotlin,rust&theme=dark" alt="languages" />
 <br/>
-<img src="https://skillicons.dev/icons?i=flutter,tauri,react,nodejs,electron,androidstudio&theme=dark" alt="frameworks" />
+<img src="https://skillicons.dev/icons?i=symfony,flutter,tauri,react,nodejs,graphql&theme=dark" alt="frameworks" />
 <br/>
-<img src="https://skillicons.dev/icons?i=sqlite,docker,git,linux,figma,notion&theme=dark" alt="tools" />
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,postgres,redis,git,linux&theme=dark" alt="tools" />
 
 </div>
 
@@ -89,7 +92,33 @@ Architecture, chia module rõ, không thích file dài 2000 dòng.
 
 ---
 
-## Mình đã làm gì
+## Việc ở công ty
+
+Mình làm backend ở **Fastboy Marketing**. Repo nội bộ nên mình không nêu tên, chỉ kể mình đụng
+vào những mảng nào.
+
+Phần lớn thời gian mình ở trong **hệ CRM nội bộ** — backend PHP/Symfony là chính, thỉnh thoảng
+qua frontend và viết tài liệu cho anh em dùng. Ngoài CRM ra thì có **data warehouse** gom dữ liệu
+từ nhiều nguồn về một chỗ, **hệ referral / reseller nhiều cấp**, và một **service nhắn tin tức
+thời**. Mảng nền tảng thì mình viết mấy **Symfony bundle dùng chung** cho cả team: lớp GraphQL,
+cầu nối Hasura, bundle bảo mật, xử lý stream qua Benthos. Hạ tầng thì đụng **GitOps với Helm
+chart trên Kubernetes**.
+
+Con số cho dễ hình dung, lấy từ GitHub API:
+
+```text
+12 tháng qua      4.817 commit · 1.038 pull request
+  ├─ nội bộ       3.579 commit trên 22 repo của Fastboy Marketing
+  └─ cá nhân      1.144 commit trên repo riêng
+5 năm gần nhất   ~24.200 commit, phần lớn nằm trên cùng một hệ CRM
+```
+
+Nhìn theo ngôn ngữ thì 12 tháng qua có **69% commit là PHP** — nên nếu bạn thấy bảng ngôn ngữ
+phía trên toàn Python với Dart, thì đó là mình sau giờ làm.
+
+---
+
+## Mấy thứ mình tự làm
 
 Repo private hết nên chỉ kể được nội dung, không có link.
 
