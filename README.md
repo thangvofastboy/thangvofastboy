@@ -2,22 +2,32 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00d4ff&height=200&section=header&text=V%C3%B5%20Ho%C3%A0ng%20Th%E1%BA%AFng&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Lazy%20DEV%20in%20House%20%F0%9F%98%B4&descSize=20&descAlignY=57&animation=fadeIn" alt="banner" />
 
-<a href="https://github.com/thangvofastboy">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3400&pause=1000&color=00D4FF&center=true&vCenter=true&width=760&lines=Lazy+DEV+in+House+%F0%9F%98%B4;M%C3%ACnh+l%C6%B0%E1%BB%9Di%2C+n%C3%AAn+m%C3%ACnh+vi%E1%BA%BFt+m%C3%A1y+l%C3%A0m+thay;Ng%E1%BB%93i+2+ng%C3%A0y+t%E1%BB%B1+%C4%91%E1%BB%99ng+c%C3%A1i+vi%E1%BB%87c+l%C3%A0m+tay+m%E1%BA%A5t+5+ph%C3%BAt;Python+%C2%B7+TypeScript+%C2%B7+Rust+%C2%B7+Flutter+%C2%B7+Kotlin" alt="typing" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3400&pause=1000&color=00D4FF&center=true&vCenter=true&width=760&lines=Lazy+DEV+in+House+%F0%9F%98%B4;M%C3%ACnh+l%C6%B0%E1%BB%9Di%2C+n%C3%AAn+m%C3%ACnh+vi%E1%BA%BFt+m%C3%A1y+l%C3%A0m+thay;Ng%E1%BB%93i+2+ng%C3%A0y+t%E1%BB%B1+%C4%91%E1%BB%99ng+c%C3%A1i+vi%E1%BB%87c+l%C3%A0m+tay+m%E1%BA%A5t+5+ph%C3%BAt;Python+%C2%B7+TypeScript+%C2%B7+Rust+%C2%B7+Flutter+%C2%B7+Kotlin" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3400&pause=1000&color=1F4E5A&center=true&vCenter=true&width=760&lines=Lazy+DEV+in+House+%F0%9F%98%B4;M%C3%ACnh+l%C6%B0%E1%BB%9Di%2C+n%C3%AAn+m%C3%ACnh+vi%E1%BA%BFt+m%C3%A1y+l%C3%A0m+thay;Ng%E1%BB%93i+2+ng%C3%A0y+t%E1%BB%B1+%C4%91%E1%BB%99ng+c%C3%A1i+vi%E1%BB%87c+l%C3%A0m+tay+m%E1%BA%A5t+5+ph%C3%BAt;Python+%C2%B7+TypeScript+%C2%B7+Rust+%C2%B7+Flutter+%C2%B7+Kotlin" alt="Lazy DEV in House" />
+</picture>
 
 <br/>
 
-<img src="https://img.shields.io/badge/%F0%9F%98%B4-Lazy%20DEV%20in%20House-00d4ff?style=for-the-badge&labelColor=0f2027" alt="lazy dev" />
-<img src="https://img.shields.io/badge/17-private%20repos-7b61ff?style=for-the-badge&labelColor=0f2027" alt="repos" />
-<img src="https://img.shields.io/badge/~5.9k-contributions%2Fn%C4%83m-2ecc71?style=for-the-badge&labelColor=0f2027" alt="contributions" />
-<img src="https://img.shields.io/badge/12.1MB-code-ff6b6b?style=for-the-badge&labelColor=0f2027" alt="code size" />
+<img src="https://img.shields.io/badge/Backend-PHP%20%2F%20Symfony-00d4ff?style=for-the-badge&labelColor=0f2027" alt="backend" />
+<img src="https://img.shields.io/badge/Sau%20gi%E1%BB%9D-AI%20%C2%B7%20Automation%20%C2%B7%20Mobile-00d4ff?style=for-the-badge&labelColor=0f2027" alt="after hours" />
+<img src="https://img.shields.io/badge/Vi%E1%BB%87t%20Nam-UTC%2B7-2c5364?style=for-the-badge&labelColor=0f2027" alt="location" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/commit%2Fn%C4%83m-4.817-00d4ff?style=flat-square&labelColor=0f2027" alt="commits" />
+<img src="https://img.shields.io/badge/pull%20request-1.038-00d4ff?style=flat-square&labelColor=0f2027" alt="pull requests" />
+<img src="https://img.shields.io/badge/repo%20n%E1%BB%99i%20b%E1%BB%99-22-2c5364?style=flat-square&labelColor=0f2027" alt="org repos" />
+<img src="https://img.shields.io/badge/repo%20c%C3%A1%20nh%C3%A2n-17-2c5364?style=flat-square&labelColor=0f2027" alt="personal repos" />
+<img src="https://img.shields.io/badge/5%20n%C4%83m-~24.200%20commit-2c5364?style=flat-square&labelColor=0f2027" alt="five years" />
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" />
 
 </div>
 
----
-
-## Chào, mình là Thắng
+## 👋 &nbsp;Chào, mình là Thắng
 
 Mình làm AI và automation. Nói cho oai vậy thôi, thật ra mọi thứ mình viết đều bắt đầu từ một
 việc mình thấy phiền và không muốn làm lần thứ hai.
@@ -56,9 +66,9 @@ Most of my repos are private, so this page does the talking.
 
 </details>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
-## Ngôn ngữ trong 17 repo cá nhân
+## 📊 &nbsp;Ngôn ngữ trong 17 repo cá nhân
 
 Tính tay từ 17 repo private của mình qua GitHub API, tháng 08/2026. Phần việc công ty không nằm
 trong bảng này — chỗ đó gần như toàn PHP, mình nói ở dưới. Mấy cái widget thống kê không đọc
@@ -70,7 +80,7 @@ TypeScript    ██████████░░░░░░░░░░░░
 Dart          █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.1%   1.95 MB
 Kotlin        ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12.5%   1.51 MB
 Rust          █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.9%   1.19 MB
-JS/CSS/HTML/Shell/C++ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.0%   0.85 MB
+Khác          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.0%   0.85 MB
                                                         ────────────────────────
                                                              Σ 12.1 MB · 17 repos
 ```
@@ -90,9 +100,9 @@ qua AICore), routing giữa mấy nhà cung cấp cloud khi cần, MCP server v�
 quanh Claude CLI, sync mã hoá đầu-cuối, search bằng SQLite FTS5. Kiến trúc thì mình theo Clean
 Architecture, chia module rõ, không thích file dài 2000 dòng.
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
-## Việc ở công ty
+## 💼 &nbsp;Việc ở công ty
 
 Mình làm backend ở **Fastboy Marketing**. Repo nội bộ nên mình không nêu tên, chỉ kể mình đụng
 vào những mảng nào.
@@ -116,9 +126,9 @@ Con số cho dễ hình dung, lấy từ GitHub API:
 Nhìn theo ngôn ngữ thì 12 tháng qua có **69% commit là PHP** — nên nếu bạn thấy bảng ngôn ngữ
 phía trên toàn Python với Dart, thì đó là mình sau giờ làm.
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
-## Mấy thứ mình tự làm
+## 🛠️ &nbsp;Mấy thứ mình tự làm
 
 Repo private hết nên chỉ kể được nội dung, không có link.
 
@@ -174,7 +184,7 @@ Tạo nhạc bằng Suno AI, kèm 19 tính năng AI hỗ trợ chạy được c
 (Gemma 4 hoặc Gemini Nano). Viết lời, tách stem, xuất MIDI và MP4, 50 preset phong cách. Có cả
 chế độ gợi ý theo phong thuỷ, cái này là làm cho vui.
 
-**AI-Note** · `Kotlin` + Compose Multiplatform
+**AI-Note** · `Kotlin` + `Compose Multiplatform`
 Ghi âm rồi để AI xử lý phần còn lại: nhận dạng giọng nói (Whisper trên máy trước, không được thì
 server riêng, cuối cùng mới tới cloud), sửa chính tả, tóm tắt, rút action item, chia chương, và
 chat hỏi lại nội dung. Chạy trên cả Android và Desktop.
@@ -206,7 +216,7 @@ của JetBrains và Android Studio — chỗ này mình đào ra vài chục GB 
 **AutoSyncNotion** · `Shell` + `Python`
 Daemon đồng bộ Notion với máy local, cấu hình bằng một file YAML rồi để nó tự chạy nền.
 
-**web-screenshot** · `JavaScript` + Playwright
+**web-screenshot** · `JavaScript` + `Playwright`
 Service chụp màn hình web headless. Đúng một file, một dependency, làm một việc.
 
 **FastboyTool** (Chrome / Firefox) · `JavaScript`
@@ -222,9 +232,9 @@ tới giờ vẫn chạy.
 
 </details>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
-## Vài nguyên tắc mình giữ
+## 🧭 &nbsp;Vài nguyên tắc mình giữ
 
 ```python
 class LazyDevInHouse:
