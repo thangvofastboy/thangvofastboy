@@ -13,11 +13,11 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/commit%20%2812%20th%C3%A1ng%2C%2008%2F2026%29-4.817-00d4ff?style=flat-square&labelColor=0f2027" alt="4.817 commit trong 12 tháng, thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/pull%20request-1.038-00d4ff?style=flat-square&labelColor=0f2027" alt="pull requests" /> <img src="https://img.shields.io/badge/repo%20c%C3%B3%20%C4%91%C3%B3ng%20g%C3%B3p%20%2808%2F2026%29-22-2c5364?style=flat-square&labelColor=0f2027" alt="22 repo tổ chức có đóng góp trong bản thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/repo%20private%20c%C3%A1%20nh%C3%A2n-22-2c5364?style=flat-square&labelColor=0f2027" alt="22 repo private cá nhân, kiểm tra ngày 03/10/2026" /> <img src="https://img.shields.io/badge/5%20n%C4%83m-~24.200%20commit-2c5364?style=flat-square&labelColor=0f2027" alt="five years" />
+<img src="https://img.shields.io/badge/commit%20%2809%2F2026%29-1.544-00d4ff?style=flat-square&labelColor=0f2027" alt="1.544 commit trong tháng 09/2026" /> <img src="https://img.shields.io/badge/PR%20%2809%2F2026%29-536-00d4ff?style=flat-square&labelColor=0f2027" alt="536 pull request được tạo trong tháng 09/2026" /> <img src="https://img.shields.io/badge/repo%20Fastboy%20%2809%2F2026%29-14-2c5364?style=flat-square&labelColor=0f2027" alt="14 repo FastboyMarketing có commit hoặc PR trong tháng 09/2026" /> <img src="https://img.shields.io/badge/repo%20private%20c%C3%A1%20nh%C3%A2n-22-2c5364?style=flat-square&labelColor=0f2027" alt="22 repo private cá nhân, kiểm tra ngày 03/10/2026" /> <img src="https://img.shields.io/badge/commit%20%28to%C3%A0n%20b%E1%BB%99%20l%E1%BB%8Bch%20s%E1%BB%AD%29-28.173-2c5364?style=flat-square&labelColor=0f2027" alt="28.173 commit của bạn trên nhánh mặc định, kiểm tra ngày 03/10/2026" />
 
 <br/><br/>
 
-<sub>Nội dung & ngôn ngữ: 03/10/2026 · Thống kê commit & PR: tháng 08/2026</sub>
+<sub>Nội dung & ngôn ngữ: 03/10/2026 · Thống kê tháng: 09/2026 · Thống kê lịch sử: 08/2026</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" />
 
@@ -115,7 +115,7 @@ Architecture, chia module rõ. File dài 2000 dòng thì mình với thanh cuộ
 Mình làm backend ở **Fastboy Marketing**. Repo nội bộ nên mình không nêu tên, chỉ kể mình đụng
 vào những mảng nào. Tóm lại là giúp dữ liệu đi đúng chỗ và bug bớt đi dạo. Kiểm tra GitHub API
 ngày **03/10/2026**, tài khoản mình truy cập được **210 repo của tổ chức**, trong đó **14 đã
-archive**. Số **22 repo có đóng góp** ở bản thống kê tháng 08/2026 là một mốc riêng.
+archive**. Riêng tháng **09/2026**, mình có commit hoặc tạo PR trên **14 repo của tổ chức**.
 
 ### 🧩 &nbsp;CRM — nơi một nút bấm có nhiều chuyện phía sau
 
@@ -156,7 +156,98 @@ Có quản lý secret, ingress/TLS, SSO, metric và log qua Grafana/Loki/Mimir, 
 operator cho hệ message và dữ liệu. Công việc là giữ ứng dụng chạy đều, để câu
 “máy em vẫn chạy” có thêm vài máy đứng ra làm chứng.
 
-Con số cho dễ hình dung, theo bản thống kê GitHub API tháng **08/2026**. “12 tháng” và
+### 🗓️ &nbsp;Tháng 09/2026 — bàn phím chưa được nghỉ phép
+
+Đối chiếu GitHub Search API ngày **03/10/2026**, từ **01/09 đến hết 30/09/2026 theo giờ
+Việt Nam (UTC+7)**, gồm các repo public và private mà tài khoản mình truy cập được:
+
+| Phạm vi | Commit | PR đã tạo | Repo có đóng góp |
+| :--- | ---: | ---: | ---: |
+| Fastboy Marketing | 1.485 | 535 | 14 |
+| Cá nhân | 59 | 1 | 7 |
+| **Tổng tháng 09/2026** | **1.544** | **536** | **21** |
+
+Commit tính theo **ngày tác giả** của tài khoản `thangvofastboy`, không lọc merge commit;
+PR tính theo **ngày tạo**, kể cả PR đang mở hoặc đã đóng. “Repo có đóng góp” là repo có
+ít nhất một commit hoặc PR trong kỳ. Kết quả lấy đủ các trang GitHub Search và loại trùng
+theo repo + SHA với commit, theo URL với PR; đây là số liệu được GitHub Search lập chỉ mục.
+
+Phía công ty, backend CRM chiếm **1.070 commit / 318 PR**, frontend CRM **193 commit / 91 PR**,
+hệ chat và cuộc gọi **88 commit / 31 PR**. Sau giờ làm, mình còn kịp viết **21 commit** cho
+tool phong thuỷ deploy, **18** cho Ludo-Quiz và **13** cho MusicAI. Bàn phím làm hai ca;
+người sở hữu bàn phím vẫn tự nhận là lười.
+
+### 📚 &nbsp;Từ đầu lịch sử đến 03/10/2026
+
+Rà soát **235 repo** cá nhân và FastboyMarketing, rồi kiểm tra đóng góp ở các tài khoản
+khác bằng GitHub Search, có **56 project** ghi nhận commit hoặc PR của mình. Mốc lịch sử GitHub tìm thấy bắt đầu từ **07/2020**. Commit dưới đây nằm trong
+lịch sử **nhánh mặc định tại bản chụp 03/10/2026**; PR gồm mọi trạng thái.
+
+| Phạm vi | Project | Commit | PR đã tạo | File source từng sửa | Dòng source thêm | Dòng source xoá |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Fastboy Marketing | 30 | 26.831 | 7.982 | 16.659 | 3.216.603 | 1.608.397 |
+| Cá nhân | 25 | 1.240 | 8 | 1.800 | 610.926 | 82.428 |
+| Blog ở tài khoản khác | 1 | 102 | 0 | 14 | 19.914 | 11.326 |
+| **Tổng** | 56 | 28.173 | 7.990 | 18.473 | 3.847.443 | 1.702.151 |
+
+“File source từng sửa” đếm đường dẫn khác nhau trong từng project rồi cộng lại. Dòng thêm/xoá
+lấy từ diff của commit mang email đã liên kết với tài khoản mình, **bỏ merge commit để tránh
+cộng lặp**. Đã đối chiếu số commit theo tác giả giữa Git và GitHub cho cả 56 project.
+Source gồm code, test, comment và dòng trống; loại tài liệu, cấu hình JSON/YAML, thư mục
+thư viện/build và các dạng file sinh tự động phổ biến theo bộ lọc của báo cáo.
+
+Đây là **lượng chỉnh sửa tích luỹ**, gồm cả code nhập vào và viết lại nhiều lần; không phải
+số dòng mình gõ tay hay số dòng của riêng mình còn lại hiện nay. Tính cả cấu hình, tài liệu
+và các loại file khác, lịch sử ghi nhận **27.477 đường dẫn file từng sửa**. Tên file sau khi
+đổi tên được tính thành đường dẫn mới.
+
+<details>
+<summary><b>🧮 Từng project cá nhân — code được bàn phím ký tên</b></summary>
+
+<br/>
+
+| Project | Commit | File source từng sửa | Dòng thêm | Dòng xoá |
+| :--- | ---: | ---: | ---: | ---: |
+| Ludo-Quiz | 20 | 221 | 177.407 | 6.177 |
+| Claude-Discord-Bridge | 693 | 428 | 109.816 | 45.953 |
+| Ubuntu-Tweaks | 37 | 181 | 80.177 | 6.011 |
+| MusicAI | 51 | 190 | 59.533 | 11.063 |
+| K8s-Dashboard | 13 | 88 | 32.226 | 1.564 |
+| Gallery-AI | 19 | 97 | 30.285 | 3.591 |
+| AI-Config-Sync | 17 | 105 | 29.234 | 1.935 |
+| WWG | 136 | 140 | 25.334 | 1.506 |
+| AI-Easy-Clean | 43 | 61 | 19.093 | 1.007 |
+| phong-thuy-deploy-code | 21 | 5 | 8.972 | 1.090 |
+| AI-Note | 10 | 31 | 7.746 | 241 |
+| QR-Code-AI | 43 | 77 | 7.299 | 752 |
+| AIGUI | 26 | 23 | 6.800 | 548 |
+| Yes-BOSS | 28 | 90 | 4.928 | 97 |
+| DebugLog | 40 | 42 | 2.947 | 26 |
+| FastboyToolChromeExtension | 15 | 4 | 2.512 | 691 |
+| FastboyToolFirefoxExtension | 2 | 4 | 2.235 | 70 |
+| DialpadExportTranscript | 1 | 7 | 1.464 | 0 |
+| web-screenshot | 3 | 1 | 1.358 | 104 |
+| claude-statusline | 4 | 1 | 830 | 0 |
+| music-ai-policy | 1 | 2 | 398 | 0 |
+| AutoSyncNotion | 4 | 2 | 332 | 2 |
+| thangvofastboy | 10 | 0 | 0 | 0 |
+| AutoTriggerClaudeCode | 2 | 0 | 0 | 0 |
+| CloudSync | 1 | 0 | 0 | 0 |
+
+Repo chỉ có tài liệu hoặc cấu hình có thể có commit nhưng không có dòng source theo bộ lọc
+này. Ngoài các project cá nhân trên, mình có **102 commit** trong một project blog ở tài
+khoản khác, với **14 file source từng sửa**, **19.914 dòng thêm** và **11.326 dòng xoá**.
+Bảng tính dòng trên lịch sử nhánh mặc định; các commit chỉ nằm ở nhánh khác chưa được
+cộng vào. Bàn phím đã chạy marathon, còn mình vẫn đang bảo mọi người là làm cho đỡ việc.
+
+</details>
+
+<details>
+<summary><b>📸 Bản thống kê lịch sử tháng 08/2026</b></summary>
+
+<br/>
+
+Các con số dưới thuộc bản thống kê GitHub API tháng **08/2026**. “12 tháng” và
 “5 năm” bên dưới được tính lùi từ mốc đó:
 
 ```text
@@ -171,13 +262,15 @@ Trong bản thống kê đó, 12 tháng có **69% commit là PHP** — nên nế
 phía trên toàn Python với Dart, thì đó là mình sau giờ làm. PHP trả tiền điện, mấy ngôn
 ngữ còn lại đảm bảo mình dùng hết số điện đó.
 
+</details>
+
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
 ## 🛠️ &nbsp;Những lần “viết cái này chắc nhanh thôi”
 
 > [!NOTE]
 > Phần lớn repo để private, nên mình kể chuyện ở đây. Code ngại đám đông, tác giả thì không.
-> Danh sách và ngôn ngữ rà soát ngày 03/10/2026; số liệu commit thuộc bản chụp tháng 08/2026.
+> Danh sách và ngôn ngữ rà soát ngày 03/10/2026; thống kê tháng 09/2026 ở mục công việc phía trên.
 
 ### 🤖 &nbsp;Agent và công cụ AI
 
