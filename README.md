@@ -13,11 +13,11 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/commit%20%2812%20th%C3%A1ng%2C%2008%2F2026%29-4.817-00d4ff?style=flat-square&labelColor=0f2027" alt="4.817 commit trong 12 tháng, thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/pull%20request-1.038-00d4ff?style=flat-square&labelColor=0f2027" alt="pull requests" /> <img src="https://img.shields.io/badge/repo%20n%E1%BB%99i%20b%E1%BB%99-22-2c5364?style=flat-square&labelColor=0f2027" alt="org repos" /> <img src="https://img.shields.io/badge/repo%20c%C3%A1%20nh%C3%A2n-17-2c5364?style=flat-square&labelColor=0f2027" alt="personal repos" /> <img src="https://img.shields.io/badge/5%20n%C4%83m-~24.200%20commit-2c5364?style=flat-square&labelColor=0f2027" alt="five years" />
+<img src="https://img.shields.io/badge/commit%20%2812%20th%C3%A1ng%2C%2008%2F2026%29-4.817-00d4ff?style=flat-square&labelColor=0f2027" alt="4.817 commit trong 12 tháng, thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/pull%20request-1.038-00d4ff?style=flat-square&labelColor=0f2027" alt="pull requests" /> <img src="https://img.shields.io/badge/repo%20n%E1%BB%99i%20b%E1%BB%99-22-2c5364?style=flat-square&labelColor=0f2027" alt="org repos" /> <img src="https://img.shields.io/badge/repo%20private%20c%C3%A1%20nh%C3%A2n-21-2c5364?style=flat-square&labelColor=0f2027" alt="21 repo private cá nhân, kiểm tra ngày 02/10/2026" /> <img src="https://img.shields.io/badge/5%20n%C4%83m-~24.200%20commit-2c5364?style=flat-square&labelColor=0f2027" alt="five years" />
 
 <br/><br/>
 
-<sub>Nội dung cập nhật: 02/10/2026 · Thống kê GitHub: bản chụp tháng 08/2026</sub>
+<sub>Nội dung & ngôn ngữ: 02/10/2026 · Thống kê commit & PR: tháng 08/2026</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" />
 
@@ -68,23 +68,30 @@ Most repos are private. The code works backstage; this README greets the guests.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
-## 📊 &nbsp;Ngôn ngữ — bản chụp 17 repo cá nhân (08/2026)
+## 📊 &nbsp;Ngôn ngữ trong 21 repo private cá nhân
 
-Tính tay từ 17 repo private của mình qua GitHub API, tháng 08/2026. Phần việc công ty không nằm
-trong bảng này — chỗ đó gần như toàn PHP, mình nói ở dưới. Đây là bản chụp tại thời điểm
-đó, chưa tính những repo và thay đổi sau tháng 08/2026. Mấy cái widget thống kê không đọc
-được đầy đủ repo private. Để tránh một biểu đồ trông như mình vừa nghỉ hưu, mình tự cộng.
+Kiểm tra trực tiếp qua GitHub API ngày **02/10/2026**: tài khoản `thangvofastboy` có **24 repo**,
+gồm **21 private** và **3 public**. Repo thuộc tổ chức được tính riêng, không nằm trong con số này.
+
+Bảng dưới cộng số byte mã nguồn theo ngôn ngữ của **21 repo private**, kể cả repo chưa có dữ liệu
+ngôn ngữ. Đây là dung lượng code GitHub nhận diện, không phải số commit hay thời gian làm việc.
+Phần việc công ty không nằm trong bảng — PHP đang trực ca ở mục bên dưới.
 
 ```text
-Python        ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.8%   4.45 MB
-TypeScript    ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  17.7%   2.14 MB
-Dart          █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.1%   1.95 MB
-Kotlin        ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12.5%   1.51 MB
-Rust          █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.9%   1.19 MB
-Khác          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.0%   0.85 MB
+Dart          ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  37.0%   7.49 MB
+Python        ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  24.3%   4.93 MB
+TypeScript    ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.9%   3.43 MB
+Kotlin        ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.5%   1.51 MB
+Rust          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.0%   1.21 MB
+JavaScript    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2%   0.66 MB
+Go            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.8%   0.37 MB
+Khác          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3%   0.66 MB
                                                         ────────────────────────
-                                                             Σ 12.1 MB · 17 repos
+                                                          Σ 20.26 MB · 21 repos
 ```
+
+Dart tạm chiếm ngôi đầu. Ban đầu chỉ định nghịch Flutter một chút, giờ bảng thống kê đã
+có ý kiến riêng về chữ “một chút” của mình.
 
 <div align="center">
 
@@ -136,7 +143,7 @@ ngữ còn lại đảm bảo mình dùng hết số điện đó.
 
 > [!NOTE]
 > Phần lớn repo để private, nên mình kể chuyện ở đây. Code ngại đám đông, tác giả thì không.
-> Nội dung rà soát ngày 02/10/2026; số liệu commit bên dưới thuộc bản chụp tháng 08/2026.
+> Danh sách và ngôn ngữ rà soát ngày 02/10/2026; số liệu commit thuộc bản chụp tháng 08/2026.
 
 ### 🤖 &nbsp;Agent và công cụ AI
 
