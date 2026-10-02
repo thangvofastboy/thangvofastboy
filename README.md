@@ -13,11 +13,11 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/commit%20%2812%20th%C3%A1ng%2C%2008%2F2026%29-4.817-00d4ff?style=flat-square&labelColor=0f2027" alt="4.817 commit trong 12 tháng, thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/pull%20request-1.038-00d4ff?style=flat-square&labelColor=0f2027" alt="pull requests" /> <img src="https://img.shields.io/badge/repo%20n%E1%BB%99i%20b%E1%BB%99-22-2c5364?style=flat-square&labelColor=0f2027" alt="org repos" /> <img src="https://img.shields.io/badge/repo%20private%20c%C3%A1%20nh%C3%A2n-21-2c5364?style=flat-square&labelColor=0f2027" alt="21 repo private cá nhân, kiểm tra ngày 02/10/2026" /> <img src="https://img.shields.io/badge/5%20n%C4%83m-~24.200%20commit-2c5364?style=flat-square&labelColor=0f2027" alt="five years" />
+<img src="https://img.shields.io/badge/commit%20%2812%20th%C3%A1ng%2C%2008%2F2026%29-4.817-00d4ff?style=flat-square&labelColor=0f2027" alt="4.817 commit trong 12 tháng, thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/pull%20request-1.038-00d4ff?style=flat-square&labelColor=0f2027" alt="pull requests" /> <img src="https://img.shields.io/badge/repo%20c%C3%B3%20%C4%91%C3%B3ng%20g%C3%B3p%20%2808%2F2026%29-22-2c5364?style=flat-square&labelColor=0f2027" alt="22 repo tổ chức có đóng góp trong bản thống kê tháng 08/2026" /> <img src="https://img.shields.io/badge/repo%20private%20c%C3%A1%20nh%C3%A2n-22-2c5364?style=flat-square&labelColor=0f2027" alt="22 repo private cá nhân, kiểm tra ngày 03/10/2026" /> <img src="https://img.shields.io/badge/5%20n%C4%83m-~24.200%20commit-2c5364?style=flat-square&labelColor=0f2027" alt="five years" />
 
 <br/><br/>
 
-<sub>Nội dung & ngôn ngữ: 02/10/2026 · Thống kê commit & PR: tháng 08/2026</sub>
+<sub>Nội dung & ngôn ngữ: 03/10/2026 · Thống kê commit & PR: tháng 08/2026</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" />
 
@@ -68,26 +68,26 @@ Most repos are private. The code works backstage; this README greets the guests.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
-## 📊 &nbsp;Ngôn ngữ trong 21 repo private cá nhân
+## 📊 &nbsp;Ngôn ngữ trong 22 repo private cá nhân
 
-Kiểm tra trực tiếp qua GitHub API ngày **02/10/2026**: tài khoản `thangvofastboy` có **24 repo**,
-gồm **21 private** và **3 public**. Repo thuộc tổ chức được tính riêng, không nằm trong con số này.
+Kiểm tra trực tiếp qua GitHub API ngày **03/10/2026**: tài khoản `thangvofastboy` có **25 repo**,
+gồm **22 private** và **3 public**. Repo thuộc tổ chức được tính riêng, không nằm trong con số này.
 
-Bảng dưới cộng số byte mã nguồn theo ngôn ngữ của **21 repo private**, kể cả repo chưa có dữ liệu
+Bảng dưới cộng số byte mã nguồn theo ngôn ngữ của **22 repo private**, kể cả repo chưa có dữ liệu
 ngôn ngữ. Đây là dung lượng code GitHub nhận diện, không phải số commit hay thời gian làm việc.
 Phần việc công ty không nằm trong bảng — PHP đang trực ca ở mục bên dưới.
 
 ```text
-Dart          ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  37.0%   7.49 MB
-Python        ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  24.3%   4.93 MB
-TypeScript    ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.9%   3.43 MB
-Kotlin        ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.5%   1.51 MB
-Rust          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.0%   1.21 MB
+Dart          ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.6%   7.49 MB
+Python        ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  24.1%   4.93 MB
+TypeScript    █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  17.7%   3.61 MB
+Kotlin        ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.4%   1.51 MB
+Rust          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9%   1.21 MB
 JavaScript    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2%   0.66 MB
 Go            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.8%   0.37 MB
-Khác          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3%   0.66 MB
+Khác          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3%   0.68 MB
                                                         ────────────────────────
-                                                          Σ 20.26 MB · 21 repos
+                                                          Σ 20.46 MB · 22 repos
 ```
 
 Dart tạm chiếm ngôi đầu. Ban đầu chỉ định nghịch Flutter một chút, giờ bảng thống kê đã
@@ -103,7 +103,7 @@ có ý kiến riêng về chữ “một chút” của mình.
 
 </div>
 
-Ngoài ngôn ngữ ra thì mình hay đụng tới: LLM chạy on-device (Gemma 4 qua MediaPipe, Gemini Nano
+Ngoài ngôn ngữ ra thì mình hay đụng tới: LLM chạy on-device (Gemma 4 qua LiteRT-LM, Gemini Nano
 qua AICore), routing giữa mấy nhà cung cấp cloud khi cần, MCP server và mấy thứ tự động hoá
 quanh Claude CLI, sync mã hoá đầu-cuối, search bằng SQLite FTS5. Kiến trúc thì mình theo Clean
 Architecture, chia module rõ. File dài 2000 dòng thì mình với thanh cuộn đều mệt.
@@ -113,14 +113,48 @@ Architecture, chia module rõ. File dài 2000 dòng thì mình với thanh cuộ
 ## 💼 &nbsp;Ban ngày: PHP nuôi những giấc mơ automation
 
 Mình làm backend ở **Fastboy Marketing**. Repo nội bộ nên mình không nêu tên, chỉ kể mình đụng
-vào những mảng nào. Tóm lại là giúp dữ liệu đi đúng chỗ và bug bớt đi dạo.
+vào những mảng nào. Tóm lại là giúp dữ liệu đi đúng chỗ và bug bớt đi dạo. Kiểm tra GitHub API
+ngày **03/10/2026**, tài khoản mình truy cập được **210 repo của tổ chức**, trong đó **14 đã
+archive**. Số **22 repo có đóng góp** ở bản thống kê tháng 08/2026 là một mốc riêng.
 
-Phần lớn thời gian mình ở trong **hệ CRM nội bộ** — backend PHP/Symfony là chính, thỉnh thoảng
-qua frontend và viết tài liệu cho anh em dùng. Ngoài CRM ra thì có **data warehouse** gom dữ liệu
-từ nhiều nguồn về một chỗ, **hệ referral / reseller nhiều cấp**, và một **service nhắn tin tức
-thời**. Mảng nền tảng thì mình viết mấy **Symfony bundle dùng chung** cho cả team: lớp GraphQL,
-cầu nối Hasura, bundle bảo mật, xử lý stream qua Benthos. Hạ tầng thì đụng **GitOps với Helm
-chart trên Kubernetes**.
+### 🧩 &nbsp;CRM — nơi một nút bấm có nhiều chuyện phía sau
+
+Phần lớn thời gian mình ở trong **hệ CRM nội bộ**: PHP/Symfony, PostgreSQL, API Platform và
+GraphQL qua Hasura. Khách hàng, đơn hàng, hoá đơn, dịch vụ định kỳ, ticket, kho, nhân sự và
+báo cáo cùng sống trong hệ này. Thỉnh thoảng mình qua frontend React/TypeScript hoặc viết
+tài liệu hướng dẫn. Một chữ “Lưu” trên màn hình, phía sau là cả khu phố đang họp tổ dân phố.
+
+Gần đây còn có **AI và MCP cho nghiệp vụ CRM**: công cụ truy vấn theo quyền, trợ lý dùng
+knowledge base và nhật ký prompt/tool để theo dõi agent đã làm gì. Có MCP server chạy trên
+Cloudflare Workers, kết nối PostgreSQL qua Hyperdrive. Agent cũng vào ca, nhưng vẫn phải
+đeo thẻ nhân viên và để lại dấu vết công việc.
+
+### 📊 &nbsp;Data warehouse — đưa dữ liệu về đúng nhà
+
+Gom dữ liệu từ CRM, hệ check-in, thanh toán, referral và chat; tính KPI, điểm đánh giá,
+hoa hồng và báo cáo tiền. Pipeline CDC đi từ PostgreSQL qua Debezium, Kafka/Redpanda tới
+warehouse, kèm Redpanda Connect/Benthos và xử lý nền bằng RabbitMQ. Có ClickHouse cho
+phân tích và đối chiếu báo cáo. Dữ liệu được đi nhiều nơi, nhưng cuối ngày số tiền phải
+khớp — kế toán không chấp nhận lý do “event chắc đang kẹt xe”.
+
+### 💬 &nbsp;Referral, reseller và liên lạc với khách hàng
+
+Hệ **referral / reseller** quản lý giới thiệu, đơn hàng, ký xác nhận, thuế, thanh toán và
+hoa hồng nhiều cấp; tích hợp CRM, WHMCS và Avalara. Phần **nhắn tin và gọi điện** kết nối
+Stream Chat, Telnyx và Firebase: chat, cuộc gọi vào/ra, ghi âm, hàng đợi, chuyển cuộc gọi,
+chiến dịch gọi và thông báo. Làm cho các service hiểu nhau trước khi yêu cầu con người
+hiểu vì sao điện thoại đang reo.
+
+### ⚙️ &nbsp;Đồ dùng chung và hạ tầng
+
+Mình viết và bảo trì **Symfony bundle dùng chung**: GraphQL, cầu nối Hasura, xác thực,
+phân quyền, xử lý số điện thoại và stream qua Benthos. Chỗ này sửa một lần để nhiều
+service cùng dùng — cũng là lý do mỗi lần sửa mình uống cà phê chậm hơn một chút.
+
+Hạ tầng dùng **GitOps, Helm và Kubernetes**, với Argo CD quản lý các cụm dev/prod.
+Có quản lý secret, ingress/TLS, SSO, metric và log qua Grafana/Loki/Mimir, cùng các
+operator cho hệ message và dữ liệu. Công việc là giữ ứng dụng chạy đều, để câu
+“máy em vẫn chạy” có thêm vài máy đứng ra làm chứng.
 
 Con số cho dễ hình dung, theo bản thống kê GitHub API tháng **08/2026**. “12 tháng” và
 “5 năm” bên dưới được tính lùi từ mốc đó:
@@ -143,7 +177,7 @@ ngữ còn lại đảm bảo mình dùng hết số điện đó.
 
 > [!NOTE]
 > Phần lớn repo để private, nên mình kể chuyện ở đây. Code ngại đám đông, tác giả thì không.
-> Danh sách và ngôn ngữ rà soát ngày 02/10/2026; số liệu commit thuộc bản chụp tháng 08/2026.
+> Danh sách và ngôn ngữ rà soát ngày 03/10/2026; số liệu commit thuộc bản chụp tháng 08/2026.
 
 ### 🤖 &nbsp;Agent và công cụ AI
 
@@ -203,6 +237,15 @@ Linux dùng systemd timer và RTC, macOS dùng LaunchDaemon và lịch wake, Win
 Scheduler. Có log từng job và đối chiếu lịch trong app với task thực tế của hệ điều hành.
 Mình ngủ, máy cũng ngủ, nhưng deadline không ngủ. App này giải quyết mâu thuẫn đó.
 
+#### claude-statusline
+
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" /> <img src="https://img.shields.io/badge/jq-2c5364?style=flat-square" alt="jq" /> <img src="https://img.shields.io/badge/Nerd%20Fonts-0f2027?style=flat-square" alt="Nerd Fonts" />
+
+Statusline hai dòng kiểu Powerlevel10k cho Claude Code trên Linux: branch Git, model,
+context, quota, token, chi phí, RAM và số session đang chạy. Có cache quota cập nhật nền
+và bộ cài kiểm tra Nerd Font. Một bảng đồng hồ nhỏ để biết agent đang nghĩ, máy đang thở,
+hay ví mình đang xin nghỉ.
+
 ### 📱 &nbsp;Mobile và AI chạy trên máy
 
 #### Gallery-AI
@@ -222,8 +265,11 @@ không biến thành chuyến khảo cổ trong thư viện.
 Tạo nhạc qua Suno AI, Sonauto, Udio hoặc Stability AI, kèm các công cụ hỗ trợ viết lời,
 gợi ý phong cách và tối ưu prompt. Phần AI hỗ trợ có thể dùng model trên máy hoặc cloud;
 phần tạo nhạc dùng API của từng dịch vụ. Có tách stem, xuất MIDI và MP4, điều chỉnh tham số
-theo engine, remix và đổi thể loại. Có cả chế độ gợi ý theo phong thuỷ — khi bí ý tưởng,
-mình cho ngũ hành tham gia buổi brainstorm.
+theo engine, remix và đổi thể loại. Thêm tạo hiệu ứng âm thanh và âm cảnh, đọc ý tưởng
+thành prompt, tạo bìa album, AI nhận xét bản nhạc và karaoke theo lời đồng bộ. Player có
+playlist, crossfade và equalizer 10 băng tần. Có cả chế độ gợi ý theo phong thuỷ — khi bí
+ý tưởng, mình cho ngũ hành tham gia buổi brainstorm. Ban đầu chỉ muốn tạo một bài hát,
+giờ điện thoại kiêm luôn phòng thu và ban giám khảo.
 
 #### AI-Note
 
@@ -256,9 +302,32 @@ cách biến vận động thành việc xoá vùng tối trên map. Chiếc gh�
 
 Cờ cá ngựa kết hợp đố vui: trả lời đúng và nhanh để giành lượt đổ xúc xắc trước. Chơi với
 bot, chuyền tay trên một máy, qua LAN hoặc online bằng Supabase Realtime. Có chiến dịch
-theo 12 khối lớp, sổ tay câu sai để ôn lại, tuỳ chỉnh bàn cờ, thú cưng và tương tác vui
-giữa người chơi. Viết bằng Flutter cho điện thoại, web và desktop. Đang ôn kiến thức vẫn
-có thể bị đá ngựa về chuồng — học đi đôi với hành, hành ở đây hơi đau.
+theo 12 khối lớp, sổ tay câu sai để ôn lại và đọc câu hỏi bằng giọng nói. Ngoài luật thường
+còn có đấu đội 2v2, Blitz 5 phút, hợp sức diệt Boss Rồng, đấu tay đôi, ô bí mật và thẻ kỹ
+năng. Tuỳ chỉnh bàn cờ, thú cưng, thu gọn bàn cờ toàn màn hình hoặc bật giao diện tối giản.
+Viết bằng Flutter cho điện thoại, web và desktop. Đang ôn kiến thức vẫn có thể bị đá ngựa
+về chuồng — học đi đôi với hành, hành ở đây hơi đau.
+
+### 🎮 &nbsp;Game web và những nghi thức trước giờ deploy
+
+#### Yes-BOSS — Đúng Ý Sếp
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Preact-673AB8?style=flat-square&logo=preact&logoColor=white" alt="Preact" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
+
+Game web quẹt thẻ châm biếm đời dev, chơi đơn từ thứ Hai tới Chủ Nhật. Mỗi quyết định
+phải cân bằng tinh thần, uy tín, đồng đội và độ ổn định hệ thống; còn có vật phẩm,
+tâm trạng sếp, thử thách ban đêm và nhiều kết cục. Lưu tiến độ để hôm sau chịu trận tiếp,
+chơi được trên điện thoại lẫn desktop. Đi làm xong về viết game đi làm — sở thích của
+mình có vẻ chưa đọc nội quy nghỉ ngơi.
+
+#### phong-thuy-deploy-code
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white" alt="Hono" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
+
+Tra ngày giờ deploy và merge code bằng âm lịch, Can Chi và một chút tâm linh ngành IT.
+Chấm điểm khung giờ, gieo quẻ công nghệ, xuất lịch `.ics`, tạo lá bùa PNG và soạn sẵn lời
+xin hoãn deploy cho team. Có cả API gatekeeper để gắn vào CI/CD và mini-game diệt bug.
+Chiều thứ Sáu mà muốn bấm nút production, ít nhất hãy hỏi ý kiến vũ trụ trước.
 
 ### 🖥️ &nbsp;Desktop và đồ nghề hằng ngày
 
@@ -288,6 +357,15 @@ thực. Có xử lý xung đột giữ cả hai bản, lịch sử phiên bản,
 truyền trực tiếp qua LAN giữa các máy. Giao diện desktop kèm icon khay hệ thống, hỗ trợ
 tiếng Việt và tiếng Anh. Để tệp tự tìm nhau, mình khỏi phải đoán bản nào trong
 `final`, `final_v2` và `final_that_su` mới là bản cuối.
+
+#### [CloudSync](https://github.com/thangvofastboy/CloudSync)
+
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" /> <img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" alt="Google Drive" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+
+Engine đồng bộ hai chiều gần thời gian thực giữa thư mục local và Google Drive. Gom thay
+đổi file, giữ cả hai bản khi xung đột, tải tiếp file lớn và tự đồng bộ lại khi có mạng.
+Có `.syncignore` và cơ chế chặn vòng lặp upload–download. Repo public để ai cần thì ghé;
+file nên được đồng bộ, chứ không nên chơi bóng bàn giữa máy và cloud.
 
 #### AutoSyncNotion
 
