@@ -83,54 +83,59 @@ người quen. File dài quá thì mình với thanh cuộn đều muốn xin ng
 
 ## 💼 &nbsp;Ban ngày: PHP nuôi những giấc mơ automation
 
-Mình làm backend ở **Fastboy Marketing**. Repo nội bộ nên mình không nêu tên, chỉ kể mình đụng
-vào những mảng nào. Công việc hằng ngày là giúp dữ liệu đi đúng chỗ, service hiểu nhau
-và bug bớt đi dạo. Chúng vẫn khá thích đi dạo, nên mình vẫn có việc làm.
+Ở **Fastboy Marketing**, mình chăm backend và những đường đi của dữ liệu. Có hôm thêm
+tính năng, có hôm lần theo một lỗi mà khách hàng chỉ mô tả bằng câu “hôm qua còn được”.
+Mấy hệ thống dưới đây là chỗ mình thường lui tới. Bug cũng hay lui tới, nên khá dễ gặp nhau.
 
 ### 🧩 &nbsp;CRM — nơi một nút bấm có nhiều chuyện phía sau
 
-Phần lớn thời gian mình ở trong **hệ CRM nội bộ**: PHP/Symfony, PostgreSQL, API Platform và
-GraphQL qua Hasura. Khách hàng, đơn hàng, hoá đơn, dịch vụ định kỳ, ticket, kho, nhân sự và
-báo cáo cùng sống trong hệ này. Thỉnh thoảng mình qua frontend React/TypeScript hoặc viết
-tài liệu hướng dẫn. Một chữ “Lưu” trên màn hình, phía sau là cả khu phố đang họp tổ dân phố.
+**CRM nội bộ** là chỗ mình ở nhiều nhất. Khách hàng, đơn hàng, hoá đơn, ticket, kho và
+nhân sự cùng sống ở đây, nên một nút “Lưu” đôi khi làm cả khu phố thức dậy. Mình dùng
+PHP/Symfony và PostgreSQL để chăm phần phía sau, nối API và GraphQL qua Hasura;
+thỉnh thoảng ghé React/TypeScript hoặc viết hướng dẫn để anh em đỡ phải hỏi đường.
 
-Gần đây còn có **AI và MCP cho nghiệp vụ CRM**: công cụ truy vấn theo quyền, trợ lý dùng
-knowledge base và nhật ký prompt/tool để theo dõi agent đã làm gì. Có MCP server chạy trên
-Cloudflare Workers, kết nối PostgreSQL qua Hyperdrive. Agent cũng vào ca, nhưng vẫn phải
-đeo thẻ nhân viên và để lại dấu vết công việc.
+Gần đây mình rủ thêm **AI và MCP** vào phụ việc. Trợ lý đọc tài liệu nghiệp vụ, dùng công
+cụ theo quyền và để lại nhật ký những gì đã làm. Một MCP server trên Cloudflare Workers
+nối tới PostgreSQL qua Hyperdrive, giúp agent có đường vào hệ thống. Đồng nghiệp mới
+khá nhanh nhẹn, nhưng vẫn phải đeo thẻ nhân viên và ghi lại việc đã nhận.
 
 ### 📊 &nbsp;Data warehouse — đưa dữ liệu về đúng nhà
 
-Gom dữ liệu từ CRM, hệ check-in, thanh toán, referral và chat; tính KPI, điểm đánh giá,
-hoa hồng và báo cáo tiền. Pipeline CDC đi từ PostgreSQL qua Debezium, Kafka/Redpanda tới
-warehouse, kèm Redpanda Connect/Benthos và xử lý nền bằng RabbitMQ. Có ClickHouse cho
-phân tích và đối chiếu báo cáo. Dữ liệu được đi nhiều nơi, nhưng cuối ngày số tiền phải
-khớp — kế toán không chấp nhận lý do “event chắc đang kẹt xe”.
+CRM, check-in, thanh toán, referral và chat mỗi nơi giữ một mảnh chuyện. Mình gom chúng
+về warehouse để tính KPI, điểm đánh giá, hoa hồng và nhìn lại dòng tiền. Dữ liệu đi qua
+Debezium, Kafka/Redpanda và Benthos, việc nền có RabbitMQ lo, còn ClickHouse giúp phần
+phân tích. Đường đi có hơi đông xe, nhưng cuối ngày tiền vẫn phải khớp. Kế toán chưa
+bao giờ chấp nhận lời giải thích “event chắc đang kẹt ở ngã tư”.
 
 ### 💬 &nbsp;Referral, reseller và liên lạc với khách hàng
 
-Hệ **referral / reseller** quản lý giới thiệu, đơn hàng, ký xác nhận, thuế, thanh toán và
-hoa hồng nhiều cấp; tích hợp CRM, WHMCS và Avalara. Phần **nhắn tin và gọi điện** kết nối
-Stream Chat, Telnyx và Firebase: chat, cuộc gọi vào/ra, ghi âm, hàng đợi, chuyển cuộc gọi,
-chiến dịch gọi và thông báo. Làm cho các service hiểu nhau trước khi yêu cầu con người
-hiểu vì sao điện thoại đang reo.
+Một lời giới thiệu khách hàng có thể kéo theo đơn hàng, ký xác nhận, thuế, thanh toán
+và hoa hồng. Mình chăm phần **referral / reseller**, nối CRM với WHMCS và Avalara để
+những bước đó theo kịp nhau. Đến lúc chia hoa hồng, ai cũng nhớ rất rõ mình đã góp gì;
+phần mềm cũng nên có trí nhớ tốt tương tự.
+
+Còn khi khách cần nói chuyện, hệ **chat và gọi điện** nối Stream Chat, Telnyx và Firebase
+để lo tin nhắn, cuộc gọi, ghi âm, hàng đợi và thông báo. Mình giúp các service hiểu nhau
+trước, rồi mới tới lượt con người hiểu vì sao điện thoại đang reo.
 
 ### ⚙️ &nbsp;Đồ dùng chung và hạ tầng
 
-Mình viết và bảo trì **Symfony bundle dùng chung**: GraphQL, cầu nối Hasura, xác thực,
-phân quyền, xử lý số điện thoại và stream qua Benthos. Chỗ này sửa một lần để nhiều
-service cùng dùng — cũng là lý do mỗi lần sửa mình uống cà phê chậm hơn một chút.
+Thấy nhiều service cần cùng một thứ, mình gom thành **Symfony bundle dùng chung**:
+GraphQL, Hasura, xác thực, phân quyền, số điện thoại và xử lý stream. Viết một lần để
+anh em dùng lại nghe rất hợp với mình. Đến lúc sửa thì cũng có nhiều anh em cùng chờ,
+nên tách cà phê tự nhiên được uống chậm hơn một chút.
 
-Hạ tầng dùng **GitOps, Helm và Kubernetes**, với Argo CD quản lý các cụm dev/prod.
-Có quản lý secret, ingress/TLS, SSO, metric và log qua Grafana/Loki/Mimir, cùng các
-operator cho hệ message và dữ liệu. Công việc là giữ ứng dụng chạy đều, để câu
-“máy em vẫn chạy” có thêm vài máy đứng ra làm chứng.
+Để ứng dụng có chỗ ở ổn định, mình còn đụng **GitOps, Helm, Kubernetes và Argo CD**.
+Secret, đường vào hệ thống, đăng nhập, log và metric đều cần người chăm; Grafana,
+Loki và Mimir giúp mình biết bên trong đang thế nào. Cố gắng giữ các môi trường chạy
+đều, để câu “máy em vẫn chạy” có thêm vài máy đứng ra làm chứng.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
 ## 🛠️ &nbsp;Những lần “viết cái này chắc nhanh thôi”
 
-Phần lớn repo để private, nên mình kể chuyện ở đây. Code ngại đám đông, tác giả thì không. ☕
+Hết ca ở công ty, mình mang mấy ý tưởng “nhỏ thôi” về nhà. Dưới đây là những lần ý tưởng
+đó có luôn tên repo, giao diện và một người chủ phải tiếp tục chăm nó. ☕
 
 ### 🤖 &nbsp;Agent và công cụ AI
 
@@ -160,8 +165,8 @@ vân mãi không chọn được. Tiết kiệm được thời gian phân vân,
 Mở nhiều terminal cho agent rồi quên cái nào đang làm gì là một sở thích mình muốn bỏ.
 AIGUI gom Claude Code và OpenCode vào cửa sổ desktop, giữ terminal thật, session, cây file,
 xem diff Git và quản lý MCP. Token, chi phí và context cũng có chỗ để nhìn; muốn so kết
-quả thì cho hai model cùng thử. Giờ mọi thứ có giao diện đẹp, kể cả khoảnh khắc mình
-quên mất vừa giao cho agent việc gì.
+quả thì cho hai model cùng thử. Cuối cùng đám terminal cũng có biển tên, mình đỡ phải
+nhìn một cửa sổ đang chạy rồi hỏi “ủa, ông này đang làm gì vậy?”.
 
 #### DebugLog
 
@@ -217,8 +222,8 @@ Ban đầu mình chỉ muốn gõ một ý tưởng rồi nghe thử bài hát. 
 Udio hoặc Stability AI để tạo nhạc, còn AI local hay cloud giúp viết lời và chỉnh prompt.
 Có remix, tách stem, xuất MIDI/MP4, làm hiệu ứng âm thanh, tạo bìa và nhận xét bản nhạc;
 muốn hát theo thì mở karaoke, muốn nghe tiếp thì có playlist và equalizer. Bí ý tưởng
-quá còn nhờ ngũ hành góp ý. Điện thoại kiêm phòng thu, ban giám khảo và thầy phong thuỷ
-— chủ điện thoại vẫn chưa biết hát cho đúng nhịp.
+quá còn nhờ ngũ hành góp ý. Điện thoại kiêm phòng thu, ban giám khảo và thầy phong thuỷ.
+Thiếu mỗi người chịu trách nhiệm giải thích vì sao bài này cần một đoạn solo sáo trúc.
 
 #### AI-Note
 
@@ -375,15 +380,15 @@ class LazyDevInHouse:
     ai           = "agent là đồng đội, không phải đồ chơi"
 ```
 
-Phần lớn công việc nằm trong repo private, nên biểu đồ contribution chỉ kể được một phần
-câu chuyện. Còn phần còn lại là những buổi mình nói “sửa nốt cái này rồi ngủ”.
+Mấy nguyên tắc này giúp mình bớt tạo việc cho bản thân trong tương lai. Thỉnh thoảng
+mình vẫn phá lệ vì “chắc chỉ thêm chút thôi”, rồi tương lai tới sớm ngay vào sáng hôm sau.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2c5364,100:00d4ff&height=3&section=header" width="100%" alt="" /></div>
 
 ## 📒 &nbsp;Ngoảnh lại một chút — hoá ra cũng đi được khá xa
 
 Có hôm sửa mãi một cái bug, mình thấy cả ngày chẳng làm được gì. Những lúc đó, mở góc
-này ra nhìn lại cũng vui: từ **07/2020** tới giờ, từng việc nhỏ đã thành **56 project**
+này ra nhìn lại cũng vui: từ **07/2020** đến **03/10/2026**, từng việc nhỏ đã thành **56 project**
 mình góp công. Có cái dùng mỗi ngày, có cái sinh ra chỉ vì một tối mình chưa muốn ngủ.
 
 | Dấu chân để lại | Đến giờ |
@@ -395,12 +400,11 @@ mình góp công. Có cái dùng mỗi ngày, có cái sinh ra chỉ vì một t
 | Dòng source thêm vào | 3.847.443 |
 | Dòng source xoá đi | 1.702.151 |
 
-Gần bốn triệu dòng thêm vào, rồi hơn một triệu dòng tự tay cho nghỉ hưu. Viết code cũng
+Gần bốn triệu dòng thêm vào, rồi hơn một triệu dòng được cho nghỉ hưu. Viết code cũng
 có lúc giống dọn nhà: làm xong thấy ít đồ hơn mà lại dễ sống hơn. 😴
 
-*Dòng thêm/xoá là công sức cộng dồn qua các lần sửa, có cả test, comment và dòng trống;
-merge không tính dòng lần nữa. Cùng một đoạn viết đi viết lại vẫn được đếm — code cũng
-có tuổi trẻ bồng bột, rồi mới chịu trưởng thành.*
+*Dòng thêm/xoá cộng dồn qua các lần sửa, gồm test, comment và dòng trống; merge không
+cộng dòng lần nữa. Có đoạn được viết lại nhiều lần — mình của hôm sau cũng có ý kiến riêng.*
 
 <details>
 <summary><b>☀️ Ban ngày, 🌙 sau giờ làm — công sức gửi ở đâu?</b></summary>
@@ -469,9 +473,8 @@ rất nghiêm túc, còn chủ bàn phím vẫn quảng cáo mình thuộc hệ 
 | CloudSync | 1 | 0 | 0 | 0 |
 
 Có project mọc thành cả khu rừng, có cái chỉ cần vài commit rồi sống bình yên.
-Mấy repo chỉ có tài liệu hay cấu hình thì cột source bằng không, nhưng vẫn có việc để kể.
-Ngoài ra còn một project blog ở tài khoản khác: **102 commit**, **14 file source từng sửa**,
-**19.914 dòng thêm** và **11.326 dòng xoá**. Viết lại điều đã học cũng là một cách đỡ quên.
+Những repo lo tài liệu và cấu hình có thể để cột source bằng không — việc vẫn được làm,
+chỉ là hôm đó bàn phím nói một ngôn ngữ khác.
 
 </details>
 
@@ -503,9 +506,9 @@ có khả năng co giãn rất đáng ngờ.
 
 <sub>Góc lưu niệm ngày 03/10/2026 · Commit theo lịch sử nhánh mặc định.</sub>
 
-Mấy con số ở đây để nhắc mình rằng những buổi “thử làm xem” cũng tích lại thành một
-chặng đường. Vẫn còn nhiều thứ muốn học, nhiều ý tưởng muốn nghịch, và rất nhiều việc
-mất năm phút đang chờ mình dành hai ngày để tự động hoá. ☕
+Để góc này ở đây, lâu lâu quay lại thấy mình cũng đã học thêm và làm thêm được một chút.
+Có bug đã sửa, có ý tưởng đã thành hình, có chuyện vẫn phải thử lại. Đi chậm cũng được,
+miễn còn thấy tò mò và chưa hết muốn mở IDE. ☕
 
 Cảm ơn bạn đã ghé chơi. Mình đi tự động hoá tiếp đây — nghe nói còn một việc mất tận 5 phút. 😴
 
