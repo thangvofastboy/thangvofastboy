@@ -96,8 +96,10 @@ thỉnh thoảng ghé React/TypeScript hoặc viết hướng dẫn để anh em
 
 Gần đây mình rủ thêm **AI và MCP** vào phụ việc. Trợ lý đọc tài liệu nghiệp vụ, dùng công
 cụ theo quyền và để lại nhật ký những gì đã làm. Một MCP server trên Cloudflare Workers
-nối tới PostgreSQL qua Hyperdrive, giúp agent có đường vào hệ thống. Đồng nghiệp mới
-khá nhanh nhẹn, nhưng vẫn phải đeo thẻ nhân viên và ghi lại việc đã nhận.
+nối tới PostgreSQL qua Hyperdrive, giúp agent có đường vào hệ thống. Mới đây mình đóng
+gói thêm mấy **skill cho agent** (Claude Code, Codex, Antigravity) để gọi CRM, Resell, hệ
+chat và đọc data warehouse — agent nào cần thì tự cài, khỏi đi hỏi từng người đường vào.
+Đồng nghiệp mới khá nhanh nhẹn, nhưng vẫn phải đeo thẻ nhân viên và ghi lại việc đã nhận.
 
 ### 📊 &nbsp;Data warehouse — đưa dữ liệu về đúng nhà
 
@@ -203,6 +205,16 @@ quota, token và tiền. Thế là có statusline kiểu Powerlevel10k, kèm RAM
 và các session đang chạy. Nó cập nhật quota ở nền, bộ cài lo luôn chuyện Nerd Font.
 Một bảng đồng hồ nhỏ để biết agent đang nghĩ, máy đang thở, hay ví mình đang xin nghỉ.
 
+#### [claude-swap](https://github.com/thangvofastboy/claude-swap)
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/Claude%20Code%20plugin-D97757?style=flat-square" alt="Claude Code plugin" /> <img src="https://img.shields.io/badge/0%20dependencies-2c5364?style=flat-square" alt="zero dependencies" />
+
+Tài khoản cá nhân, tài khoản công ty, tài khoản dự phòng — mà mỗi lần đổi lại phải thoát
+session rồi kể lại ngữ cảnh từ đầu. Plugin này cho mình gõ `/profile` là đổi ngay trong
+Claude Code: tự chuyển khi sắp chạm quota, đổi theo nhánh Git hoặc thư mục, dự báo lúc nào
+cạn token và chạy được nhiều session song song tách biệt. Không cài thêm thư viện, lệnh
+cũng không tốn token. Quota hết thì đổi vai thôi, chứ mình chưa định đổi nghề.
+
 ### 📱 &nbsp;Mobile và AI chạy trên máy
 
 #### Gallery-AI
@@ -260,7 +272,8 @@ Chiếc ghế không thích dự án này, nhưng đầu gối có vẻ đồng 
 Cờ cá ngựa gặp đố vui: trả lời đúng và nhanh để giành lượt đổ xúc xắc trước.
 Chơi với bot, chuyền tay, qua LAN hay online đều được; có chiến dịch theo khối lớp,
 sổ tay câu sai và đọc câu hỏi để vừa chơi vừa ôn. Thích náo nhiệt thì đấu đội,
-săn Boss Rồng, mở ô bí mật và dùng thẻ kỹ năng; thích yên tĩnh thì thu gọn bàn cờ.
+săn Boss Rồng, mở ô bí mật và dùng thẻ kỹ năng; thích yên tĩnh thì thu gọn bàn cờ,
+vội thì cho ván chạy nhanh gấp rưỡi hoặc gấp đôi.
 Đang học vẫn có thể bị đá ngựa về chuồng — học đi đôi với hành, hành ở đây hơi đau.
 
 ### 🎮 &nbsp;Game web và những nghi thức trước giờ deploy
@@ -272,8 +285,10 @@ săn Boss Rồng, mở ô bí mật và dùng thẻ kỹ năng; thích yên tĩn
 Đi làm xong về viết game đi làm, vì sở thích của mình chưa đọc nội quy nghỉ ngơi.
 Trong game web quẹt thẻ này, mình cố sống sót qua một tuần bằng cách giữ tinh thần,
 uy tín, đồng đội và hệ thống ở mức còn cứu được. Có vật phẩm, tâm trạng sếp,
-thử thách ban đêm và nhiều kết cục; lưu tiến độ để hôm sau chịu trận tiếp.
-Chơi trên điện thoại hay desktop đều được, miễn đừng để sếp thấy mình đang chơi giờ làm.
+thử thách ban đêm, ba mức độ khó và nhiều kết cục; chuỗi điểm danh mỗi ngày cùng cấp bậc
+sự nghiệp dụ mình hôm sau quay lại chịu trận tiếp. Cài được như app, chơi offline, có nhạc
+nền và ảnh kết cục để khoe. Chơi trên điện thoại hay desktop đều được, miễn đừng để sếp
+thấy mình đang chơi giờ làm.
 
 #### phong-thuy-deploy-code
 
@@ -388,17 +403,17 @@ mình vẫn phá lệ vì “chắc chỉ thêm chút thôi”, rồi tương la
 ## 📒 &nbsp;Ngoảnh lại một chút — hoá ra cũng đi được khá xa
 
 Có hôm sửa mãi một cái bug, mình thấy cả ngày chẳng làm được gì. Những lúc đó, mở góc
-này ra nhìn lại cũng vui: từ **07/2020** đến **03/10/2026**, từng việc nhỏ đã thành **56 project**
+này ra nhìn lại cũng vui: từ **07/2020** đến **08/10/2026**, từng việc nhỏ đã thành **61 project**
 mình góp công. Có cái dùng mỗi ngày, có cái sinh ra chỉ vì một tối mình chưa muốn ngủ.
 
 | Dấu chân để lại | Đến giờ |
 | :--- | ---: |
-| Project đã góp công | 56 |
-| Commit | 28.173 |
-| Pull request đã mở | 7.990 |
-| File source từng sửa | 18.473 |
-| Dòng source thêm vào | 3.847.443 |
-| Dòng source xoá đi | 1.702.151 |
+| Project đã góp công | 61 |
+| Commit | 28.504 |
+| Pull request đã mở | 8.093 |
+| File source từng sửa | 18.950 |
+| Dòng source thêm vào | 3.909.022 |
+| Dòng source xoá đi | 1.719.210 |
 
 Gần bốn triệu dòng thêm vào, rồi hơn một triệu dòng được cho nghỉ hưu. Viết code cũng
 có lúc giống dọn nhà: làm xong thấy ít đồ hơn mà lại dễ sống hơn. 😴
@@ -413,10 +428,10 @@ cộng dòng lần nữa. Có đoạn được viết lại nhiều lần — m�
 
 | Phạm vi | Project | Commit | PR đã tạo | File source từng sửa | Dòng source thêm | Dòng source xoá |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Fastboy Marketing | 30 | 26.831 | 7.982 | 16.659 | 3.216.603 | 1.608.397 |
-| Cá nhân | 25 | 1.240 | 8 | 1.800 | 610.926 | 82.428 |
+| Fastboy Marketing | 34 | 27.060 | 8.084 | 16.911 | 3.237.935 | 1.612.589 |
+| Cá nhân | 26 | 1.342 | 9 | 2.025 | 651.173 | 95.295 |
 | Blog ở tài khoản khác | 1 | 102 | 0 | 14 | 19.914 | 11.326 |
-| **Tổng** | 56 | 28.173 | 7.990 | 18.473 | 3.847.443 | 1.702.151 |
+| **Tổng** | 61 | 28.504 | 8.093 | 18.950 | 3.909.022 | 1.719.210 |
 
 PHP lo bữa cơm, mấy project buổi tối lo cho mình có lý do trì hoãn giờ ngủ.
 Còn blog giữ hộ những chuyện học được dọc đường — để lần sau khỏi tự phát minh lại bánh xe.
@@ -446,20 +461,21 @@ rất nghiêm túc, còn chủ bàn phím vẫn quảng cáo mình thuộc hệ 
 
 | Project | Commit | File source từng sửa | Dòng thêm | Dòng xoá |
 | :--- | ---: | ---: | ---: | ---: |
-| Ludo-Quiz | 20 | 221 | 177.407 | 6.177 |
+| Ludo-Quiz | 23 | 222 | 177.818 | 6.207 |
 | Claude-Discord-Bridge | 693 | 428 | 109.816 | 45.953 |
 | Ubuntu-Tweaks | 37 | 181 | 80.177 | 6.011 |
 | MusicAI | 51 | 190 | 59.533 | 11.063 |
-| K8s-Dashboard | 13 | 88 | 32.226 | 1.564 |
+| K8s-Dashboard | 15 | 133 | 47.568 | 9.285 |
 | Gallery-AI | 19 | 97 | 30.285 | 3.591 |
 | AI-Config-Sync | 17 | 105 | 29.234 | 1.935 |
 | WWG | 136 | 140 | 25.334 | 1.506 |
+| Yes-BOSS | 84 | 262 | 21.612 | 2.282 |
 | AI-Easy-Clean | 43 | 61 | 19.093 | 1.007 |
 | phong-thuy-deploy-code | 21 | 5 | 8.972 | 1.090 |
+| claude-swap | 38 | 7 | 7.810 | 2.931 |
 | AI-Note | 10 | 31 | 7.746 | 241 |
 | QR-Code-AI | 43 | 77 | 7.299 | 752 |
 | AIGUI | 26 | 23 | 6.800 | 548 |
-| Yes-BOSS | 28 | 90 | 4.928 | 97 |
 | DebugLog | 40 | 42 | 2.947 | 26 |
 | FastboyToolChromeExtension | 15 | 4 | 2.512 | 691 |
 | FastboyToolFirefoxExtension | 2 | 4 | 2.235 | 70 |
@@ -468,7 +484,7 @@ rất nghiêm túc, còn chủ bàn phím vẫn quảng cáo mình thuộc hệ 
 | claude-statusline | 4 | 1 | 830 | 0 |
 | music-ai-policy | 1 | 2 | 398 | 0 |
 | AutoSyncNotion | 4 | 2 | 332 | 2 |
-| thangvofastboy | 10 | 0 | 0 | 0 |
+| thangvofastboy | 13 | 0 | 0 | 0 |
 | AutoTriggerClaudeCode | 2 | 0 | 0 | 0 |
 | CloudSync | 1 | 0 | 0 | 0 |
 
@@ -483,20 +499,20 @@ chỉ là hôm đó bàn phím nói một ngôn ngữ khác.
 
 <br/>
 
-Góc cá nhân có **25 repo**, với **22 private** và **3 public**. Đây là phần code trong
+Góc cá nhân có **26 repo**, với **22 private** và **4 public**. Đây là phần code trong
 22 repo private — PHP đang trực ca ở công ty, còn Dart đã tranh thủ chiếm ghế đầu.
 
 ```text
-Dart          ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.6%   7.49 MB
-Python        ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  24.1%   4.93 MB
-TypeScript    █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  17.7%   3.61 MB
-Kotlin        ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.4%   1.51 MB
-Rust          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9%   1.21 MB
-JavaScript    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2%   0.66 MB
-Go            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.8%   0.37 MB
-Khác          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.3%   0.68 MB
+Dart          █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  34.5%   7.16 MB
+Python        ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  22.7%   4.71 MB
+TypeScript    ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  20.5%   4.24 MB
+Kotlin        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.0%   1.44 MB
+Rust          ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.6%   1.15 MB
+JavaScript    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.1%   0.64 MB
+Go            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0%   0.62 MB
+Khác          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.7%   0.76 MB
                                                         ────────────────────────
-                                                          Σ 20.46 MB · 22 repos
+                                                          Σ 20.73 MB · 22 repos
 ```
 
 Ban đầu chỉ định nghịch Flutter một chút. Bảng này cho thấy chữ “một chút” của mình
@@ -504,7 +520,7 @@ có khả năng co giãn rất đáng ngờ.
 
 </details>
 
-<sub>Góc lưu niệm ngày 03/10/2026 · Commit theo lịch sử nhánh mặc định.</sub>
+<sub>Góc lưu niệm ngày 08/10/2026 · Commit theo lịch sử nhánh mặc định.</sub>
 
 Để góc này ở đây, lâu lâu quay lại thấy mình cũng đã học thêm và làm thêm được một chút.
 Có bug đã sửa, có ý tưởng đã thành hình, có chuyện vẫn phải thử lại. Đi chậm cũng được,
