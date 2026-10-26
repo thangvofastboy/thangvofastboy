@@ -403,23 +403,25 @@ mình vẫn phá lệ vì “chắc chỉ thêm chút thôi”, rồi tương la
 ## 📒 &nbsp;Ngoảnh lại một chút — hoá ra cũng đi được khá xa
 
 Có hôm sửa mãi một cái bug, mình thấy cả ngày chẳng làm được gì. Những lúc đó, mở góc
-này ra nhìn lại cũng vui: từ **07/2020** đến **08/10/2026**, từng việc nhỏ đã thành **61 project**
+này ra nhìn lại cũng vui: từ **07/2020** đến **26/10/2026**, từng việc nhỏ đã thành **57 project**
 mình góp công. Có cái dùng mỗi ngày, có cái sinh ra chỉ vì một tối mình chưa muốn ngủ.
 
 | Dấu chân để lại | Đến giờ |
 | :--- | ---: |
-| Project đã góp công | 61 |
-| Commit | 28.504 |
-| Pull request đã mở | 8.093 |
-| File source từng sửa | 18.950 |
-| Dòng source thêm vào | 3.909.022 |
-| Dòng source xoá đi | 1.719.210 |
+| Project đã góp công | 57 |
+| Commit | 29.427 |
+| Pull request đã mở | 8.533 |
+| File source từng sửa | 19.157 |
+| Dòng source thêm vào | 2.439.518 |
+| Dòng source xoá đi | 1.219.723 |
 
-Gần bốn triệu dòng thêm vào, rồi hơn một triệu dòng được cho nghỉ hưu. Viết code cũng
+Gần 2,5 triệu dòng thêm vào, rồi hơn 1,2 triệu dòng được cho nghỉ hưu. Viết code cũng
 có lúc giống dọn nhà: làm xong thấy ít đồ hơn mà lại dễ sống hơn. 😴
 
-*Dòng thêm/xoá cộng dồn qua các lần sửa, gồm test, comment và dòng trống; merge không
-cộng dòng lần nữa. Có đoạn được viết lại nhiều lần — mình của hôm sau cũng có ý kiến riêng.*
+*Số liệu cập nhật 26/10/2026, đếm lại từ clone local của 57 repo (nhánh `HEAD`): commit theo
+email của mình, dòng thêm/xoá cộng dồn qua các lần sửa, chỉ tính file source (theo đuôi ngôn
+ngữ), merge không cộng dòng lần nữa. PR đếm qua GitHub search. Repo blog khớp bản cũ tuyệt đối;
+org và cá nhân lệch bản cũ về dòng code nên không so sánh trực tiếp được. Có đoạn được viết lại nhiều lần — mình của hôm sau cũng có ý kiến riêng.*
 
 <details>
 <summary><b>☀️ Ban ngày, 🌙 sau giờ làm — công sức gửi ở đâu?</b></summary>
@@ -428,10 +430,10 @@ cộng dòng lần nữa. Có đoạn được viết lại nhiều lần — m�
 
 | Phạm vi | Project | Commit | PR đã tạo | File source từng sửa | Dòng source thêm | Dòng source xoá |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Fastboy Marketing | 34 | 27.060 | 8.084 | 16.911 | 3.237.935 | 1.612.589 |
-| Cá nhân | 26 | 1.342 | 9 | 2.025 | 651.173 | 95.295 |
+| Fastboy Marketing | 33 | 27.638 | 8.496 | 16.625 | 1.753.422 | 1.112.636 |
+| Cá nhân | 23 | 1.687 | 37 | 2.518 | 666.182 | 95.761 |
 | Blog ở tài khoản khác | 1 | 102 | 0 | 14 | 19.914 | 11.326 |
-| **Tổng** | 61 | 28.504 | 8.093 | 18.950 | 3.909.022 | 1.719.210 |
+| **Tổng** | 57 | 29.427 | 8.533 | 19.157 | 2.439.518 | 1.219.723 |
 
 PHP lo bữa cơm, mấy project buổi tối lo cho mình có lý do trì hoãn giờ ngủ.
 Còn blog giữ hộ những chuyện học được dọc đường — để lần sau khỏi tự phát minh lại bánh xe.
